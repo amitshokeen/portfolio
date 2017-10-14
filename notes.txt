@@ -12,6 +12,11 @@ https://review.udacity.com/#!/rubrics/45/view
 
 *Bootstrap documentation:
 https://getbootstrap.com/docs/3.3/css/
+> Bootstrap uses Normalize.css for improved cross borwser rendering.
+
+*Minify your CSS:
+> You can manually minify your CSS using a site like http://cssminifier.com/.
+> You can also use a more advanced and automated workflow where minified CSS files get created automatically using a build system like Grunt, Gulp, or webpack.
 
 *use the viewport meta tag:
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
