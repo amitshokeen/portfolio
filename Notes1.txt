@@ -1,0 +1,32 @@
+* Intro to HTML and CSS
+https://classroom.udacity.com/courses/ud304
+____________________________________________________________________________________________________________________________________________________
+
+*"Border Box" is better than content-box. Remember: margin is not included in border-box.
+But there is a catch with this model. It's been developed only recently and so for all borwsers to be able to understand it, you must add "browser specific pre-fixes".
+These prefixes are given below:
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+____________________________________________________________________________________________________________________________________________________
+
+*The Flexbox Layout - provides for an efficient way to lay out, align and distribute space among items in a container, even when the size is unknown and/or dynamic (thus the word "flex")
+> catch up more from CSS-tricks > Flexbox,
+http://laracasts.com/series/modern-css-workflow
+
+> do u know what is "overflow: auto"?
+>it's used to stop the text in a box from overflowing onto other elements. overflow: auto allows text to scroll.
+____________________________________________________________________________________________________________________________________________________
+
+*CSS Resetting
+>you don't want your website to look or act differently on different browsers, especially the older ones. To over come this problem you may use 'Normalize.css'. This will help ensure that your css styles are interpreted the same across all browsers.
+<head>
+	<link rel="stylesheet" src="//normalize-css.googlecode.com/svn/trunk/normalize.css">
+</head>
+>> add the above link tag like so in between the head tags.
+
+

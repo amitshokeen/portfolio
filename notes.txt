@@ -10,5 +10,8 @@ https://jigsaw.w3.org/css-validator/#validate_by_input
 *Project Rubric:
 https://review.udacity.com/#!/rubrics/45/view
 
+*Bootstrap documentation:
+https://getbootstrap.com/docs/3.3/css/
+
 *use the viewport meta tag:
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
