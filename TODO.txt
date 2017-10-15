@@ -1,0 +1,6 @@
+Interesting courses:
+1. Responsive Images - by Google
+(Free, Intermediate level course provided by Udacity)
+
+2. Responsive Web Design fundamentals - by Google
+(Free, Intermediate level course provided by Udacity)
