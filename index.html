@@ -8,50 +8,114 @@
 	<link href="https://fonts.googleapis.com/css?family=Lato:100,300" rel="stylesheet">
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/style.css">
+	<script src="js/jquery-3.2.1.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
 </head>
 <body>
 	<div class="container">
-		<div class="row">
-			<div class="col-md-6">
-				<img class="title-logo" src="http://placehold.it/100x100" alt="Udacity logo">
+		<header>
+			<!-- Top row showing logo and name -->
+			<div class="row">
+				<div class="col-md-6">
+					<img class="title-logo" src="http://placehold.it/100x100" alt="placeholder logo">
+				</div>
+				<div class="col-md-6 text-right text-uppercase">
+					<h1 class="title-super text-thin">Amit Shokeen</h1>
+					<h4>Full Stack Web Developer</h4>
+				</div>
 			</div>
-			<div class="col-md-6 text-right text-uppercase">
-				<h1 class="title-super text-thin">Amit Shokeen</h1>
-				<h4>Full Stack Web Developer</h4>
-			</div>
-		</div>
+		</header>
+		<!-- A thick horizontal line running across the width of the page -->
 		<div class="row">
 			<div class="col-md-12">
 				<hr>
 			</div>
 		</div>
-		<div class="row">
-			<div class="col-md-12">
-				<img src="http://placehold.it/1140x350" alt="Main portfolio image" class="img-responsive">
+		<section id="main-image">
+			<!-- Middle row with the main portfolio image -->
+			<div class="row">
+				<div class="col-md-12">
+					<img src="http://placehold.it/1140x350" alt="Main portfolio image" class="img-responsive">
+				</div>
 			</div>
-		</div>
+		</section>
+		<!-- Featured work text -->
 		<div class="row">
 			<div class="col-md-12 text-uppercase">
 				<h2 class="text-muted">Featured Work</h2>
 			</div>
 		</div>
-		<div class="row text-center">
-			<div class="col-md-4">
-				<img src="http://placehold.it/355x300" alt="Appify image" class="img-responsive">
-	        	<h3 class="text-uppercase">Appify</h3>
-	        	<p><a href="http://github.com/Udacity/appify/">http://github.com/Udacity/Appify/</a></p>
+		<section id="featured-work">
+			<!-- The projects are depicted in this row. All projects have a modal attached as well. -->
+			<div class="row text-center">
+				<div class="col-md-4">
+					<img src="http://placehold.it/355x300" alt="Appify image" class="img-responsive" data-toggle="modal" data-target="#project1">
+		        	<h3 class="text-uppercase">Appify</h3>
+		        	<p><a href="http://github.com/Udacity/appify/">http://github.com/Udacity/Appify/</a></p>
+				</div>
+				<div class="col-md-4">
+					<img src="http://placehold.it/355x300" alt="Sunflower image" class="img-responsive" data-toggle="modal" data-target="#project2">
+		        	<h3 class="text-uppercase">Sunflower</h3>
+		        	<p><a href="http://github.com/Udacity/sunflower/">http://github.com/Udacity/Sunflower/</a></p>
+				</div>
+				<div class="col-md-4">
+					<img src="http://placehold.it/355x300" alt="Bokeh image" class="img-responsive" data-toggle="modal" data-target="#project3">
+		        	<h3 class="text-uppercase">Bokeh</h3>
+		        	<p><a href="http://github.com/Udacity/bokeh/">http://github.com/Udacity/Bokeh/</a></p>
+				</div>
 			</div>
-			<div class="col-md-4">
-				<img src="http://placehold.it/355x300" alt="Sunflower image" class="img-responsive">
-	        	<h3 class="text-uppercase">Sunflower</h3>
-	        	<p><a href="http://github.com/Udacity/sunflower/">http://github.com/Udacity/Sunflower/</a></p>
-			</div>
-			<div class="col-md-4">
-				<img src="http://placehold.it/355x300" alt="Bokeh image" class="img-responsive">
-	        	<h3 class="text-uppercase">Bokeh</h3>
-	        	<p><a href="http://github.com/Udacity/bokeh/">http://github.com/Udacity/Bokeh/</a></p>
-			</div>
-		</div>
+		</section>
 	</div>
+	<!-- Modal for the Appify project -->
+    <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel1" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel1">Appify App Page</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" src="http://placehold.it/655x300" alt="First project image.">
+                    This was my first project in this class. I learned a lot about HTML and CSS.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal for the Sunflower project -->
+    <div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel2" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel2">Sunflower App Page</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" src="http://placehold.it/655x300" alt="Second project image.">
+                    This was my second project in this class. I learned a lot more about HTML and CSS.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal for the Bokeh project -->
+    <div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel3" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel3">Bokeh App Page</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" src="http://placehold.it/655x300" alt="Third project image.">
+                    This was my third project in this class. I learned still more about HTML and CSS.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
