@@ -7,5 +7,6 @@ Please note:
 3. The project has been developed using the Twitter's Bootstrap css framework. The rendered page is responsive and works well on IE, Chrome, Firefox and the Opera browsers.
 4. Modals powered by bootstrap have been used for the featured works. Just click any of the featured works and expect to see more information related to that work.
 5. For lack of time, only placeholder images provided by http://placcehold.it have been used so far.
+6. Extensive help has been taken from the 'Into to HTML and CSS' course by Udacity.
 
 
